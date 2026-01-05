@@ -18,6 +18,7 @@ clean_image = median(image1, ball(3))
 
 image2 = edge_detection(clean_image)
 image2_copy = image2.copy()
+plt.imsave('my_edges.png', binary_image, cmap='gray')
 
 
 
