@@ -13,7 +13,7 @@ def load_image(path):
 
 def edge_detection(image):
     image = np.mean(image, axis=2)
-    plt.imshow(image, cmap='gray')
+    
     kernelY = np.array([[1,2,1],
                      [0,  0,  0],
                      [-1,-2,-1]])
