@@ -37,6 +37,4 @@ from matplotlib import pyplot as plt
 
 
 
-binary_image = np.where(image2_copy<60 ,0 ,1)
 
-plt.imsave('my_edges.png', binary_image, cmap='gray'
